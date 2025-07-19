@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 # 🔐 Твій Telegram токен і тимчасове chat_id (заміниш після /start)
-TOKEN = "8046331468:AAHcwVTxXE2De418McgBHLcsRP5FDj68FcM"
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = "815490600"  # Замінити після отримання chat_id від бота
 
 COINS = ["ethereum", "solana", "arbitrum", "lido-dao"]
